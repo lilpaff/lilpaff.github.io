@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #1a1a1a;
+}
+
+/* Block - 1 */
+
+.block-1 .img_wrap {
+    width: 100%;
+    height: 550px;
+    /* border-style: solid; */
+    position: relative;
+}
+.img_wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+.block-1 h1{
+    position: absolute;
+    top: 25%;
+    font-family: sans-serif;
+    font-size: 11.5em;
+    left: calc(100%/3.75);
+    color: #fafbfd;
+}
+
+.block-1 blockquote{
+    position: absolute;
+    color:#fff;
+    top: 58%;
+    left:calc(100%/2.1);
+    /* text-transform: uppercase; */
+}
+
+.block-1 button{
+    position: absolute;
+    width: 175px;
+    height: 45px;
+    top: 68%;
+    left: calc(100%/1.67);
+    background-color: transparent;
+    display: inline-block;
+    color: #fafbfd;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: 2px solid;
+    transition: 0.2s;
+    text-transform: uppercase;
+    /* transform: skewX(-10deg); */
+    border-radius: 2px;
+} 
+.block-1 button:hover { background: rgba(255,255,255,.2); }
+.block-1 button:active { background: white; }
+
+/* Block - 2 */
+.block-2{
+    position: relative;
+    width: 100%; 
+    /* box-sizing: content-box; */
+    height: 640px;
+    background: url('../img/bg-taiga.jpg') 0 -770px no-repeat;
+}
+
+.block-2 .img_wrap{
+    position: absolute;
+    top: 0;
+    left: calc(100%/5.75);
+    width: 415px;
+    height: 640px;
+    background: rgba(255,255,255,1);
+}
+.block-2 h2{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    top: 91px;
+}
+
+.block-2 blockquote {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 1.05em;
+    top: 145px;
+}
+.block-2 .text{
+    position: absolute;
+    top: 233px;
+    width: 80%;
+    font-size: 1em;
+    letter-spacing: -.85px;
+    line-height: 1.45em;
+    word-spacing: .08em;
+}
+.block-2 .text p{
+    margin-bottom: 13px;
+}
+.block-2 button{
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    top: 65.3%;
+    left: 0;
+    background-color: transparent;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    transition: 0.2s;
+    text-transform: uppercase;
+    /* transform: skewX(-10deg); */
+    border-radius: 2px;
+    color: rgb(34, 34, 34);
+} 
+.block-2 button:hover { background: rgba(155, 155, 155, 0.2); }
+.block-2 button:active { background: rgb(34, 34, 34); }
+.block-2 hr{
+    margin: 185px 0;
+    padding: 0;
+	width: 60px;
+    height: 6px;
+	border: none;
+	/* background: linear-gradient(45deg, #333, #ddd); */
+	background: #1a1a1a;
+}
+/* Block - 3 */
+.block-3{
+    position: relative;
+    width: 100%; 
+    /* box-sizing: content-box; */
+    height: 706px;
+    background: url('../img/bg-taiga.jpg') 0 -1410px no-repeat;
+}
+.block-3 .img_wrap{
+    position: absolute;
+    top: 222px;
+    left: 514px;
+    width: 505px;
+    height: 411px;
+    background: rgba(255,255,255,1);
+    padding-left: 62px;
+}
+.block-3 h2{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    top: 65px;
+    letter-spacing: .06em;
+}
+
+.block-3 blockquote {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: .95em;
+    top: 115px;
+    letter-spacing: .008em;
+    word-spacing: .15em;
+}
+.block-3 hr{
+    margin: 160px 0;
+    padding: 0;
+    width: 60px;
+    height: 6px;
+    border: none;
+    /* background: linear-gradient(45deg, #333, #ddd); */
+    background: #1a1a1a;
+}
+.block-3 .text{
+    position: absolute;
+    top: 203px;
+    width: 60%;
+    font-size: .97em;
+    letter-spacing: .005px;
+    line-height: 1.45em;
+    word-spacing: .01em;
+    /* color: rgba(155, 155, 155, 0.7); */
+}
+.block-3 .text p{
+    margin-bottom: 13px;
+}
+.block-3 img{
+    position: absolute;
+    top: 460px;
+    left: 820px;
+    width: 22%;
+}
+.block-4{
+    position: relative;
+    width: 100%; 
+    height: 600px;
+    background: url('../img/block-4.png') 0 -15px no-repeat;   
+}
+.block-4 .img_wrap{
+    /* position: relative; */
+    /* top: 222px; */
+    /* left: 270px; */
+    margin-top: 0;
+    margin-left: 250px;
+    width: 850px;
+    height: 300px;
+    /* background: rgba(255,0,255,.4); */
+}
+.block-4 h2{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 2.25em;
+    top: 165px;
+    left: 435px;
+    letter-spacing: .08em;
+    text-align: center;
+    z-index: 9;
+}
+
+.block-4 blockquote {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: .95em;
+    top: 215px;
+    left:520px;
+    letter-spacing: .01em;
+    word-spacing: .15em;
+    z-index: 9;
+}
+#pic-1{
+    position: absolute;
+    width: 20%;
+    top: 130px;
+    left: 280px;
+    z-index: 10;
+}
+#pic-2{
+    position: absolute;
+    width: 2.8%;
+    top: 189px;
+    left: 412px;
+    z-index: 1;
+}
+#pic-3{
+    position: absolute;
+    width: 2.2%;
+    top: 145px;
+    left: 494px;
+    z-index: 1;
+}
+#pic-4{
+    position: absolute;
+    width: 3.5%;
+    top: 123px;
+    left: 620px;
+    z-index: 10;
+}
+#pic-5{
+    position: absolute;
+    width: 3.1%;
+    top: 155px;
+    left: 832px;
+    z-index: 1;
+}
+#pic-6{
+    position: absolute;
+    width: 2%;
+    top: 135px;
+    right: 354px;
+    z-index: 10;
+}
+#pic-7{
+    position: absolute;
+    width: 12%;
+    top: 180px;
+    right: 193px;
+    z-index: 10;
+}
