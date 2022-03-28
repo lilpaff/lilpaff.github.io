@@ -2,12 +2,12 @@
     "version": "1.1",
     "api_version": 1,
     "layout": {
-        "logo": "https://lilpaff.github.io/img/tableau.png",
+        "logo": "//lilpaff.github.io/img/tableau.png",
         "color": "#458b17",
         "show_title": true
     },
     "feed": {
-        "url": "https://lilpaff.github.io",
+        "url": "//lilpaff.github.io",
         "format": "json"
     }
 }
