@@ -3,6 +3,7 @@
     margin: 0;
 }
 body{
+    background-color: #23ad7f;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     color: #1a1a1a;
@@ -280,4 +281,78 @@ body{
     top: 180px;
     right: 193px;
     z-index: 10;
+}
+footer{
+    background-color:  #23ad7f;
+    border-bottom: 30px solid  #06855b;
+}
+.wrapper-fb{
+/* Непосредственно контейнер Обратной Связи */
+    width: 800px;
+    height: 180px;
+    max-width: 100%;
+    margin: auto;
+}
+.data_form{
+    display: flex;  
+    justify-content: space-between;    
+}
+.wrapper-fb form{
+    border: 3 px solid rgb(0, 0, 134);
+}
+
+.wrapper-fb h2{
+    /* color:#fafbfd; */
+    font-family: "Tahoma";
+    padding: 20px 0;
+    color: #eee;
+}
+.wrapper-fb hr{
+    width: 20px;
+    height: 3px;
+    color: #000;
+    transform: rotate(90deg);
+    display: inline-block;
+}
+.wrapper-fb form{
+}
+.wrapper-fb form input {
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 35px;
+    width: 225px;
+    /* display: block; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+}
+.data_form input::-webkit-input-placeholder {
+    color:#999;
+    font-size: .9em;
+    font-family: 'Tahoma';
+}
+
+.wrapper-fb form .data_text input {
+    height: 35px;
+    width: 633px;
+    margin-top: 10px;
+    margin-right: 13px;
+}
+.data_text{
+    display: flex;
+    justify-content: space-between;
+}
+/* Отправить */
+
+.wrapper-fb form button {
+    width: 120px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #444;
+    background: linear-gradient(160deg, #eef43b 50%, #ddc52c 100%);
+    
 }

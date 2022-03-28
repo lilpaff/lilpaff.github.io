@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="yandex-tableau-widget" href="manifest.json" />
     <title>Шаблон 001</title>
 </head>
 
@@ -20,7 +21,7 @@
         </div>
         <h1>ТАЙГА</h1>
         <blockquote>Проверь себя на прочность в лесах Сибири</blockquote>
-        <button>Бросить вызов</button>
+        <a href="#feedback"><button>Бросить вызов</button></a>
     </div>
 
     <!-- Block - 2 -->
@@ -33,7 +34,8 @@
                 <div class="text">
                     <p>Окраины болот, заросшие клюквой, черникой и брусникой, привлекают к себе многих зверей, птиц и
                         насекомых.</p>
-                    <p>Ваш маршрут пролегает через места обитания оленей, лосей, лисиц, тетеревов, гадюк, пум и конечно
+                    <p>Ваш маршрут пролегает через места обитания оленей, лосей, лисиц, тетеревов, гадюк, рысей и
+                        конечно
                         бурых медведей.</p>
                 </div>
                 <button>победить страх</button>
@@ -77,6 +79,30 @@
         <img id="pic-7" src="img/bg-taiga-07.png" alt="">
     </div>
 
+
+    <!-- Feedback -->
+    <footer>
+        <a name="feedback"></a>
+        <div class="wrapper-fb">
+            <h2>Обратная связь</h2>
+            <!-- <hr> -->
+            <form action="" method="post">
+
+                <!-- data_form -->
+                <div class="data_form">
+                    <input name="login" placeholder="Ваше Имя...">
+                    <input name="mail" placeholder="Ваш Email...">
+                    <input name="phone" placeholder="Ваш номер телефона...">
+                </div>
+                <div class="data_text">
+                    <input placeholder="Ваше сообщение...">
+                    <!-- <input type="file"> -->
+                    <button type="submit" value="Send">ОТПРАВИТЬ</button>
+                </div>
+            </form>
+        </div>
+
+    </footer>
 </body>
 
 </html>

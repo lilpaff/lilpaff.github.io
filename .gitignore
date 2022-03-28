@@ -1,0 +1,5 @@
+# Ignoring directories
+img\not_view\
+# Ignoring files
+save.txt
+desktop.ini
