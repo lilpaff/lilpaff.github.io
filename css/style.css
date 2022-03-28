@@ -326,17 +326,26 @@ footer{
     /* flex-direction: row; */
     /* justify-content: center; */
 }
-.data_form input::-webkit-input-placeholder {
+.wrapper-fb form input:focus, .wrapper-fb form textarea:focus{
+    border: none;
+}
+
+.data_form input::-webkit-input-placeholder, .wrapper-fb form .data_text textarea::-webkit-input-placeholder {
     color:#999;
     font-size: .9em;
     font-family: 'Tahoma';
 }
 
-.wrapper-fb form .data_text input {
-    height: 35px;
-    width: 633px;
+.wrapper-fb form .data_text textarea {
+    height: 24px;
+    width: 660px;
     margin-top: 10px;
     margin-right: 13px;
+    padding: 5px 13px;
+    border-radius: 5px;
+}
+.wrapper-fb form .data_text textarea:focus {
+    height: 50px;
 }
 .data_text{
     display: flex;

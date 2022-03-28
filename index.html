@@ -90,12 +90,14 @@
 
                 <!-- data_form -->
                 <div class="data_form">
-                    <input name="login" placeholder="Ваше Имя...">
-                    <input name="mail" placeholder="Ваш Email...">
-                    <input name="phone" placeholder="Ваш номер телефона...">
+                    <input name="login" placeholder="Ваше Имя..." required>
+                    <input name="mail" placeholder="Ваш Email..." required>
+                    <input name="phone" placeholder="Ваш номер телефона..." required>
                 </div>
                 <div class="data_text">
-                    <input placeholder="Ваше сообщение...">
+                    <textarea name="comment" id="" cols="" rows="" wrap="soft" style="resize: vertical;"
+                        maxlength="1000" placeholder="Ваше сообщение..." required></textarea>
+                    <!-- <input type="text" placeholder="Ваше сообщение..."> -->
                     <!-- <input type="file"> -->
                     <button type="submit" value="Send">ОТПРАВИТЬ</button>
                 </div>
@@ -103,6 +105,16 @@
         </div>
 
     </footer>
+    <script>
+        $(document).ready(function () {
+            $(form).keydown(function (event) {
+                if (event.keyCode == 13) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
